@@ -1,0 +1,14 @@
+# Local env / secrets
+.env
+.env.*
+!.env.example
+
+# Build artifacts
+*.zip
+node_modules/
+.DS_Store
+Thumbs.db
+.agent_tmp/
+
+# Vite build output
+dist/
